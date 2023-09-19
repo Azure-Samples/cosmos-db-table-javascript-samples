@@ -17,12 +17,15 @@ await client.createTable()
 
 // <upsert>
 const item = {
-  PartitionKey: '68719518371',
-  RowKey: 'Surfboards',
+  partitionKey: '68719518371',
+  rowKey: 'Surfboards',
   name: 'Kiama classic surfboard'
 }
 
-await client.createEntity(item)
+await client.upsertEntity(
+  item,
+  'Replace'
+)
 // </upsert>
 
 process.exit()
