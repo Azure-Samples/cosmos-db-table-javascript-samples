@@ -1,5 +1,6 @@
 # Azure Cosmos DB for Table client library samples for JavaScript
 
+[![Validate Node.js projects](https://github.com/Azure-Samples/cosmos-db-table-javascript-samples/actions/workflows/validate.yml/badge.svg)](https://github.com/Azure-Samples/cosmos-db-table-javascript-samples/actions/workflows/validate.yml)
 
 ## Getting started
 
